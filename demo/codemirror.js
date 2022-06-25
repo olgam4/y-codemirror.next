@@ -40,9 +40,9 @@ provider.awareness.setLocalStateField('user', {
 const state = EditorState.create({
   doc: ytext.toString(),
   extensions: [
-    keymap.of([
-      ...yUndoManagerKeymap
-    ]),
+    // keymap.of([
+    //   ...yUndoManagerKeymap
+    // ]),
     // basicSetup,
     // javascript(),
     // EditorView.lineWrapping,
