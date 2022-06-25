@@ -43,9 +43,9 @@ const state = EditorState.create({
     keymap.of([
       ...yUndoManagerKeymap
     ]),
-    basicSetup,
-    javascript(),
-    EditorView.lineWrapping,
+    // basicSetup,
+    // javascript(),
+    // EditorView.lineWrapping,
     yCollab(ytext, provider.awareness)
     // oneDark
   ]

@@ -2,6 +2,7 @@
 import * as cmView from '@codemirror/view'
 
 import * as cmState from '@codemirror/state'
+import { RangeSet } from '@codemirror/state'
 import * as dom from 'lib0/dom'
 import * as pair from 'lib0/pair'
 import * as math from 'lib0/math'
@@ -136,7 +137,8 @@ export class YRemoteSelectionsPluginValue {
     /**
      * @type {cmView.DecorationSet}
      */
-    this.decorations = cmState.RangeSet.of([])
+    debugger
+    this.decorations = RangeSet.of([])
   }
 
   destroy () {
